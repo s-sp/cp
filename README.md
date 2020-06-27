@@ -1,2 +1,2 @@
 # cp
-Questions Suhas has solved since 26th June 2020.
+Questions Suhas has solved since 27th June 2020.
