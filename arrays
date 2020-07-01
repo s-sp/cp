@@ -18,5 +18,5 @@
   Reverse all to get (ArBr) r = BA.
 
 questions to look at:
-0 Remove duplicate elements from sorted Array
-
+0 Remove duplicate elements from sorted Array: its easy to miss the constant space, linear time implementation
+1 Find Transition Point: my solution better than ones on the internet
