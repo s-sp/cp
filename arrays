@@ -1,7 +1,22 @@
-1 sizeof() operator works at compile time
-2 int array2D[2][4] = {1,2,3,4,5,6,7,8}; /* (i) */
+0 sizeof() operator works at compile time
+1 int array2D[2][4] = {1,2,3,4,5,6,7,8}; /* (i) */
   int array2D[][4] = {1,2,3,4,5,6,7,8}; /* (ii) */
   int array2D[2][] = {1,2,3,4,5,6,7,8}; /* (iii) */
   int array2D[][] = {1,2,3,4,5,6,7,8}; /* (iv) */
   Only (i) and (ii) are correct.
-3 
+  
+2 [silly] if a function is passing to you an array you need to modify, you can still use an auxillary array and copy its contents to your main array
+
+3 reverse(i, j) will not work if j>n
+
+4 5 methods for array rotation: 0) using aux array; 1) shifting elements 1 by 1, n*d complexity; 
+  3 methods with O(n) time, constant space: 2) juggling algorithm using gcd; 3) block swap; 4) reversal algorithm
+
+5 The idea of the reversal algorithm for array rotation is :
+  Reverse A to get ArB, where Ar is reverse of A.
+  Reverse B to get ArBr, where Br is reverse of B.
+  Reverse all to get (ArBr) r = BA.
+
+questions to look at:
+0 Remove duplicate elements from sorted Array
+
