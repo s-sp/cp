@@ -1,0 +1,50 @@
+1 sizeof() operator works at compile time
+2 int array2D[2][4] = {1,2,3,4,5,6,7,8}; /* (i) */
+  int array2D[][4] = {1,2,3,4,5,6,7,8}; /* (ii) */
+  int array2D[2][] = {1,2,3,4,5,6,7,8}; /* (iii) */
+  int array2D[][] = {1,2,3,4,5,6,7,8}; /* (iv) */
+  Only (i) and (ii) are correct.
+3 
+  
+
+#0
+  class Test 
+  { 
+      public static void main (String[] args)  
+      { 
+          int arr1[] = {1, 2, 3}; 
+          int arr2[] = {1, 2, 3}; 
+          if (arr1 == arr2) // Same as arr1.equals(arr2) 
+              System.out.println("Same"); 
+          else
+              System.out.println("Not same"); 
+      } 
+  }
+  Output: Not Same
+
+  BUT
+
+  import java.util.Arrays; 
+  class Test 
+  { 
+      public static void main (String[] args)  
+      { 
+          int arr1[] = {1, 2, 3}; 
+          int arr2[] = {1, 2, 3}; 
+          if (Arrays.equals(arr1, arr2)) 
+              System.out.println("Same"); 
+          else
+              System.out.println("Not same"); 
+      } 
+  }
+  Output: Same
+
+#1
+  In a C file (say sourcefile1.c), an array is defined as follows:- 
+  Here, we don’t need to mention arrary arr size explicitly in [] because the size would be determined by the number of elements used in the initialization:
+  int arr[] = {1,2,3,4,5};
+  In another C file (say sourcefile2.c), the same array is declared for usage as follows:
+  extern int arr[];
+  In sourcefile2.c, we cannot use sizeof() on arr to find out the actual size of arr because
+  First thing first, sizeof() operator works at compile time. So usage of sizeof on arr in sourcefile2.c won’t work because arr in sourcefile2.c is an incomplete type. 
+  Please note that arr in sourcefile1.c is a complete type because size of array got determined at compile time due to initialization.
