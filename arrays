@@ -5,7 +5,7 @@
   int array2D[][] = {1,2,3,4,5,6,7,8}; /* (iv) */
   Only (i) and (ii) are correct.
   
-2 [silly] if a function is passing to you an array you need to modify, you can still use an auxillary array and copy its contents to your main array
+2 [silly] remember you can often use an auxillary array and copy its contents to your main array
 
 3 reverse(i, j) will not work if j>n
 
