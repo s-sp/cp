@@ -1,0 +1,5 @@
+1 double(9/5) is equal to 1, watch out every time you divide.
+2 cpp has floor()
+3 The floor value of log base 10 increased by 1, of any number, gives the number of digits present in that number.
+4 (A + B) mod C = (A mod C + B mod C) mod C, works similarly for - and * also, but not division.
+5 You can compute the LCM of more than two numbers by iteratively computing the LCM of two numbers, i.e. lcm(a,b,c) = lcm(a,lcm(b,c))
