@@ -1,4 +1,5 @@
 0 sizeof() operator works at compile time
+
 1 int array2D[2][4] = {1,2,3,4,5,6,7,8}; /* (i) */
   int array2D[][4] = {1,2,3,4,5,6,7,8}; /* (ii) */
   int array2D[2][] = {1,2,3,4,5,6,7,8}; /* (iii) */
@@ -23,10 +24,15 @@
 
 8 [silly] common compilation errors include: i, j mixup; i in place of 1
 
+9 Remember: in dealing with large matrices or arrays, use boolean arrays instead of integer arrays when you can.
+
+
+
 
 
 questions to look at:
 0 Remove duplicate elements from sorted Array: its easy to miss the constant space, linear time implementation
 1 Find Transition Point: my solution better than ones on the internet
 2 Equilibrium Point: try it, its easy
-3 
+3 Subarray with given sum: easy, important
+4 
