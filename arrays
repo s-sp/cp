@@ -33,6 +33,7 @@
 questions to look at:
 0 Remove duplicate elements from sorted Array: its easy to miss the constant space, linear time implementation
 1 Find Transition Point: my solution better than ones on the internet
-2 Equilibrium Point: try it, its easy
-3 Subarray with given sum: easy, important
-4 
+2 Equilibrium Point: 
+3 Subarray with given sum: 
+4 Kadane's Algorithm: obvious really
+5 
