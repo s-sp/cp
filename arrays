@@ -16,7 +16,17 @@
   Reverse A to get ArB, where Ar is reverse of A.
   Reverse B to get ArBr, where Br is reverse of B.
   Reverse all to get (ArBr) r = BA.
+  
+6 The range of long long int is -(2^63) to (2^63)-1. (2^63)-1 is 9.2e+18, 19 digits long. unsigned long long int is from 0 to 1.8e+19.
+
+7 To make a wave array (a1 >= a2 <= a3 >= a4 <= a5.....) just sort the array and swap adjacent elements.
+
+8 [silly] common compilation errors include: i, j mixup; i in place of 1
+
+
 
 questions to look at:
 0 Remove duplicate elements from sorted Array: its easy to miss the constant space, linear time implementation
 1 Find Transition Point: my solution better than ones on the internet
+2 Equilibrium Point: try it, its easy
+3 
