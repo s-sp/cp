@@ -28,9 +28,9 @@
 
 10 [imp] hashmap without hashmap (applicable to pure positve number arrays only): arr[arr[i]] = -arr[arr[i]]. see Smallest Positive missing number.
 
-11 [imp] hashmap without hashmap whilst dealing with non-positive numbers: write a linear time segregation function to separate positive numbers from others.
+11 hashmap without hashmap whilst dealing with non-positive numbers: rather than writing a linear time segregation function to separate positive numbers from others like everybody and their brother, see what I have done in Smallest Positive missing number.
 
-12 
+12 array[negative_number] does not always throw an error.
 
 
 questions to look at:
