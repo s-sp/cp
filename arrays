@@ -22,7 +22,7 @@
 
 7 To make a wave array (a1 >= a2 <= a3 >= a4 <= a5.....) just sort the array and swap adjacent elements.
 
-8 common compilation errors include: i, j mixup; i in place of 1
+8 common errors include: i, j mixup; i in place of 1. i looks like 1, have more than once wasted too many minutes because of this.
 
 9 Remember: in dealing with large matrices or arrays, use boolean arrays instead of integer arrays when you can.
 
