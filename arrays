@@ -6,7 +6,7 @@
   int array2D[][] = {1,2,3,4,5,6,7,8}; /* (iv) */
   Only (i) and (ii) are correct.
   
-2 [imp] (a + b*n) / n is b (because a<n, a/n is 0) and (a + b*n) % n is a, see Rearrange an array with O(1) extra space.
+2 [imp] (a + b*n) / n is b (because a<n, a/n is 0) and (a + b*n) % n is a, see Rearrange an array with O(1) extra space. Many of these "Do in O(1) space" questions are about encoding and decoding.
 
 3 reverse(i, j) will not work if j>n
 
@@ -22,13 +22,13 @@
 
 7 To make a wave array (a1 >= a2 <= a3 >= a4 <= a5.....) just sort the array and swap adjacent elements.
 
-8 common errors include: i, j mixup; i in place of 1. i looks like 1, have more than once wasted too many minutes because of this.
+8 common errors include: i, j mixup; i in place of 1. i looks like 1, I have more than once wasted too many minutes because of this.
 
-9 Remember: in dealing with large matrices or arrays, use boolean arrays instead of integer arrays when you can.
+9 In dealing with large matrices or arrays, use boolean arrays instead of integer arrays when you can.
 
-10 [imp] hashmap without hashmap (applicable to pure positve number arrays only): arr[arr[i]] = -arr[arr[i]]. see Smallest Positive missing number.
+10 [imp] hashmap without hashmap (applicable to pure positve number arrays only): arr[abs(arr[i])] = -arr[abs(arr[i])]. see Smallest Positive missing number.
 
-11 hashmap without hashmap whilst dealing with non-positive numbers: rather than writing a linear time segregation function to separate positive numbers from others like everybody and their brother, see what I have done in Smallest Positive missing number.
+11 hashmap without hashmap whilst dealing with non-positive numbers: rather than writing a linear time segregation function to separate positive numbers from others, set all positives to INT_MAX.
 
 12 array[negative_number] does not always throw an error.
 
