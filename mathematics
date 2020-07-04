@@ -21,7 +21,8 @@
   else
    cout << "EVEN"; 
 
-9 if(x&1 == 0) does not work, because == has higher precedence than &. Use parantheses: if((x&1) == 0)
+9 Caution: Where ever you use '&', be mindful of the fact that == has higher precedence than &. Use parantheses: "if(x&1 == 0)" does not work, write "if((x&1) == 0)".
+
 
 
 
