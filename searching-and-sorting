@@ -1,0 +1,10 @@
+0 How many heapify operations have been performed on root of heap? 
+  Eg: If last two elements in given array are the 2 maximum elements in array, maxHeapify has been called twice. 
+  If 3 minimum elements accumulated in order, minHeapify has been called thrice.
+  
+1 
+
+questions to review:
+
+0 Peak element
+1 
