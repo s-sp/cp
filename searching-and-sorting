@@ -1,8 +1,10 @@
-0 How many heapify operations have been performed on root of heap? 
+0 Question type: How many heapify operations have been performed on root of heap? [array is shown]
   Eg: If last two elements in given array are the 2 maximum elements in array, maxHeapify has been called twice. 
   If 3 minimum elements accumulated in order, minHeapify has been called thrice.
   
-1 
+1 std:unique(it0, it1) is pretty great
+
+2 v.back() throws segmentation fault if the v is empty
 
 questions to review:
 
