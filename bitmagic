@@ -1,0 +1,17 @@
+0 The bitwise algorithms are found to be much faster and are some times used to improve the efficiency of a program.
+1  &, |, and ^ take two numbers as operands and operate on every corresponding pair of bits of the two numbers.
+2 <<, >> take two numbers, left shifts the bits of the first operand, the second operand decides the number of places to shift.
+3 The left shift and right shift operators cannot be used with negative numbers.
+4 ~ (bitwise NOT) Takes one number and inverts all bits of it.
+5 The bitwise XOR operator is the most useful operator from technical interview perspective.
+*6 The left-shift and right-shift operators by 1 are equivalent to multiplication and division by 2 respectively.
+*7 The value of expression (x & 1) would be non-zero only if x is odd, otherwise the value would be zero.
+8 Set/unset/toggle/check the kth bit in a number n using 1, 4, 6.
+9 Find log base 2 of a number using 6.
+*10 To toggle bits of a number simply subtract the number from the value obtained when all the bits are equal to 1.
+*11 We can easily swap two numbers say a and b by using the XOR(^) operator by applying below operations:
+    a ^= b;
+    b ^= a; 
+    a ^= b;
+*12 If a number N is a power of 2 then bitwise-AND(&) of N and N-1 will be zero. We can say that N is a power of 2 or not based on the value of N&(N-1).
+13 
