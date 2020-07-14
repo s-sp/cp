@@ -1,0 +1,3 @@
+0 use strlen to find length of string when it is passed as a char*
+1 stoi() for string to int, for character array and string literal use atoi().
+2 isdigit() not isNum()
